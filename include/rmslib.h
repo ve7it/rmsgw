@@ -247,6 +247,9 @@ extern int sendDataGram(char *host, char *port, unsigned char* msg, int msg_len)
 /*
  * status block function prototypes
  */
+extern const char *map_aci_state(ACISTATE s);
+extern const char *map_gw_state(GWSTATE s);
+extern const char *map_gw_comm(GWSTATE s);
 extern int set_shm_debug(void);
 extern int get_cms_slot(rms_status *p, char *cms_host);
 extern int statblock_attach(rms_status **addr);

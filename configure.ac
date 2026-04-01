@@ -50,6 +50,7 @@ AC_CONFIG_FILES([Makefile \
 	rmsgw_aci/Makefile \
 	rmsgwmon/Makefile \
 	rmschanstat/Makefile \
+	rmsfinddev/Makefile \
 	devutils/Makefile \
 	man/Makefile \
 	contrib/Makefile \
